@@ -1,0 +1,88 @@
+.login_logo{
+    width: 250px;
+    object-fit: contain;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.login{
+    flex-direction: column ;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+
+}
+
+.login_signInButton{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: rgb(133, 117, 228);
+    width: 100%;
+    height: 30px;
+    border: 1px solid;
+    border: 3px;
+    margin-top: 10px;
+    border-color: #42340f #42340f #42340f;
+
+
+
+}
+.login_container > p {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+.login_registerButton{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-color: darkgray;
+    width: 100%;
+    height: 30px;
+    border: 1px solid;
+    border-radius: 3px;
+    margin-top: 10px;
+
+
+}
+
+
+.login_container{
+    display: flex;
+    padding: 20px;
+    border: 1px solid lightgray;
+    border-radius: 6px;
+    flex-direction: column;
+    height: fit-content;
+    width: 300px;
+}
+
+.login_container > h1{
+font-weight: 500;
+margin-bottom: 20px;
+
+}
+.login_container > form > h5{
+    margin-bottom: 5px;
+}
+
+.login_container > form > input{
+    height: 30px;
+    width: 98%;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+#BUTTON:hover{
+    cursor: pointer;
+    background-color: rgb(5, 134, 255);
+    transition: all 0.4s ease-out;
+}
+
+#BUTTON2:hover{
+    cursor: pointer;
+    background-color: rgb(151, 157, 163);
+    transition: all 0.4s ease-out;
+}

@@ -1,0 +1,75 @@
+.header{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(8, 52, 134);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header_logo{
+    width: 100px;
+    object-fit: contain;
+    margin: 0 20px;
+    margin-top: 18px;
+    top: 0;
+    display:inline;
+}
+
+.header_search{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    border-radius: 24px;
+}
+
+.header_searchInput{
+    height: 12px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+}
+
+.header_searchIcon{
+    padding: 5px;
+    height: 22px !important;
+    background-color: white;
+}
+
+.header_nav{
+    display: flex;
+    justify-content:  space-evenly;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+}
+
+.header_option{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+}
+
+.header_optionOne{
+    font-size: 10px;
+}
+
+.header_optionTwo{
+    font-size: 13px;
+    font-weight: 800;
+}
+
+.header_optionBasket{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.header_BasketCount{
+    margin-right: 10px;
+    margin-left: 10px;
+    border-right: 10px;
+    border-left: 10px;
+}
